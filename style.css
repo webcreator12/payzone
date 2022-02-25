@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+    min-height: 100vh;
+}
+header,
+section{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+header{
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+header img{
+    width: 154px;
+    height: 72px;
+    margin-left: -35px;
+}
+header ul{
+    list-style: none;
+    margin-top: 20px;
+}
+header ul li{
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 550;
+}
+section .content button,
+header button{
+    outline: none;
+    background-color: #fff;
+    padding: 15px 25px;
+    color: #000;
+    font-weight: 550;
+    transition: all ease 0.3s;
+    font-size: 16px;
+}
+header button{
+    border: 2px solid #000;
+    height: 50px;
+}
+header button:hover{
+    background-color: #8a58dd;
+    border: 2px solid #444444;
+    color: #fff;
+}
+.content{
+    width: 100%;
+    background-image: url("img.jpg");
+    background-size: 38%;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 20px 0px;
+}
+section .content h1{
+    width: 500px;
+    font-size: 68px;
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+section .content p{
+    font-size: 22px;
+    width: 470px;
+    color: #665f5f;
+}
+section .content button{
+    border: 2px solid transparent;
+    margin-top: 30px;
+}
+section .content button.active{
+    background-color: #000;
+    color: #fff;
+}
+section .content button:hover,
+section .content button.active:hover{
+    background-color: #8a58dd;
+    border: 2px solid #444444;
+    color: #fff;
+}
